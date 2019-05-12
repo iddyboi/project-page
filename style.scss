@@ -1,0 +1,19 @@
+$dark-color: #393e46;
+$section-heading: 2rem;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#main-nav {
+  background-color: $dark-color;
+}
+
+section h1 {
+  font-size: $section-heading;
+  color: $dark-color;
+}
